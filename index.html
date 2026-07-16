@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritika W. | Web Developer & Designer | Build Websites That Convert</title>
+    <meta name="description" content="I build modern websites and design systems that help small businesses get more leads and clients. Fast delivery, clean code, results-focused.">
+    <link rel="stylesheet" href="portfolio_ritika.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- SCROLL PROGRESS BAR -->
+    <div class="progress-bar"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Ritika W.</a>
+            <ul class="nav-menu">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">I build websites that turn visitors into paying customers</h1>
+            <p class="hero-subtitle">Modern design. Clean code. One goal: growing your business online.</p>
+            <p class="hero-trust">Helping small businesses and entrepreneurs get more leads and clients</p>
+            <div class="hero-ctas">
+                <button class="cta-primary" onclick="scrollToContact()">Get Your Website</button>
+                <button class="cta-secondary" onclick="document.getElementById('work').scrollIntoView({behavior: 'smooth'})">View My Work</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-card">
+                <div class="hero-card-inner"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEM SECTION -->
+    <section class="problem">
+        <h2>Does This Sound Familiar?</h2>
+        <div class="problem-grid">
+            <div class="problem-card">
+                <div class="problem-icon">📱</div>
+                <h3>No Website. Or An Old One.</h3>
+                <p>You're losing potential clients because you don't have a professional online presence.</p>
+            </div>
+            <div class="problem-card">
+                <div class="problem-icon">📉</div>
+                <h3>Not Getting Leads</h3>
+                <p>Your website exists but it's not working for you. Visitors come and go. Nobody calls.</p>
+            </div>
+            <div class="problem-card">
+                <div class="problem-icon">😕</div>
+                <h3>Customers Don't Trust You</h3>
+                <p>Poor design, slow loading, confusing navigation — these hurt your credibility before you even pitch.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION SECTION -->
+    <section class="solution">
+        <h2>Here's What I Do</h2>
+        <div class="solution-content">
+            <div class="solution-text">
+                <h3>Websites Built For Results</h3>
+                <p>I don't build portfolio sites. I build sales machines.</p>
+                <p>Every pixel, every line of copy, every button is designed to do one thing: guide your visitor closer to becoming your customer.</p>
+                <ul class="solution-list">
+                    <li><strong>Conversion-focused design</strong> — Every section pushes toward your goal</li>
+                    <li><strong>Clean, modern UI/UX</strong> — Your brand looks premium and trustworthy</li>
+                    <li><strong>Fast & responsive</strong> — Works perfectly on all devices, loads instantly</li>
+                    <li><strong>Easy to manage</strong> — Update content yourself without code</li>
+                </ul>
+                <p class="solution-outcome"><strong>The outcome:</strong> More leads. Better brand perception. Higher conversion rates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <h2>What I Offer</h2>
+        <div class="services-grid">
+            <!-- Service 1: Web Development -->
+            <div class="service-card">
+                <div class="service-icon">🚀</div>
+                <h3>Web Development</h3>
+                <p class="service-desc">Fast, clean, conversion-focused websites built with modern code.</p>
+                <ul class="service-list">
+                    <li>Landing pages that convert</li>
+                    <li>Business websites</li>
+                    <li>WordPress + custom sites</li>
+                    <li>Fully responsive design</li>
+                    <li>Fast loading speeds</li>
+                </ul>
+                <p class="service-benefit"><strong>Your benefit:</strong> A website that works as hard as you do.</p>
+            </div>
+
+            <!-- Service 2: Graphic Design -->
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Graphic Design</h3>
+                <p class="service-desc">Visual designs that stop the scroll and build your brand.</p>
+                <ul class="service-list">
+                    <li>Social media creatives</li>
+                    <li>Branding visuals</li>
+                    <li>Marketing materials</li>
+                    <li>UI mockups</li>
+                    <li>Brand guidelines</li>
+                </ul>
+                <p class="service-benefit"><strong>Your benefit:</strong> Consistent, professional brand presence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio" id="work">
+        <h2>Recent Work</h2>
+        <div class="portfolio-grid">
+            <!-- Project 1 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image placeholder-1"></div>
+                <div class="portfolio-content">
+                    <h3>Fitness Coach Landing Page</h3>
+                    <p class="portfolio-niche">Niche: Fitness & Coaching</p>
+                    <div class="portfolio-details">
+                        <div class="detail">
+                            <strong>Problem:</strong> Coach had no online presence. Losing clients to competitors with websites.
+                        </div>
+                        <div class="detail">
+                            <strong>Solution:</strong> Built a conversion-focused landing page showcasing coaching packages, client testimonials, and clear CTAs.
+                        </div>
+                        <div class="detail">
+                            <strong>Outcome:</strong> 3 new clients in first month. Page loads in 1.2s.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image placeholder-2"></div>
+                <div class="portfolio-content">
+                    <h3>Local Beauty Salon Website</h3>
+                    <p class="portfolio-niche">Niche: Salon & Beauty Services</p>
+                    <div class="portfolio-details">
+                        <div class="detail">
+                            <strong>Problem:</strong> Salon only had Facebook. Customers couldn't find pricing, services, or book appointments.
+                        </div>
+                        <div class="detail">
+                            <strong>Solution:</strong> Professional website with service pricing, gallery, and appointment booking system.
+                        </div>
+                        <div class="detail">
+                            <strong>Outcome:</strong> 15+ bookings per week through website. Reduced phone inquiries.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image placeholder-3"></div>
+                <div class="portfolio-content">
+                    <h3>Freelancer Portfolio & Services</h3>
+                    <p class="portfolio-niche">Niche: Freelance Services</p>
+                    <div class="portfolio-details">
+                        <div class="detail">
+                            <strong>Problem:</strong> Freelancer competing on low prices. No portfolio to show expertise.
+                        </div>
+                        <div class="detail">
+                            <strong>Solution:</strong> Built professional portfolio showcasing past projects with case studies and clear service tiers.
+                        </div>
+                        <div class="detail">
+                            <strong>Outcome:</strong> Doubled rates. Now gets 2-3 qualified leads per week.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE ME -->
+    <section class="why-choose">
+        <h2>Why Choose Me</h2>
+        <div class="why-grid">
+            <div class="why-card">
+                <h3>⚡ Fast Delivery</h3>
+                <p>You get your website in weeks, not months. I don't over-complicate.</p>
+            </div>
+            <div class="why-card">
+                <h3>🎯 Results-Focused</h3>
+                <p>Every decision is about moving your business forward. No fluff. No generic designs.</p>
+            </div>
+            <div class="why-card">
+                <h3>🧠 I Understand Business</h3>
+                <p>I don't just build pretty websites. I build websites that generate leads and build trust.</p>
+            </div>
+            <div class="why-card">
+                <h3>📱 Fully Responsive</h3>
+                <p>Your site looks and works perfectly on mobile, tablet, and desktop. No exceptions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <h2>What Clients Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Ritika completely redesigned how we present ourselves online. Within a month, we had more inquiries than the previous year combined."</p>
+                <p class="testimonial-author">— Priya M. | Fitness Coach</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"The website is clean, fast, and converts. She understood exactly what we needed and delivered without constant back-and-forth."</p>
+                <p class="testimonial-author">— Rahul S. | Salon Owner</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Professional, responsive, and results-driven. This is the kind of developer every startup needs."</p>
+                <p class="testimonial-author">— Ananya P. | Freelance Entrepreneur</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+    <section class="process" id="process">
+        <h2>How We Work Together</h2>
+        <div class="process-steps">
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <h3>Discovery Call</h3>
+                <p>We talk about your business, goals, and target audience. I understand what success looks like for you.</p>
+            </div>
+            <div class="process-arrow">→</div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <h3>Design & Strategy</h3>
+                <p>I design the website with conversion at the core. You see mockups. We refine together.</p>
+            </div>
+            <div class="process-arrow">→</div>
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <h3>Development</h3>
+                <p>Clean code. Fast loading. Mobile-perfect. No bloat. Just what you need.</p>
+            </div>
+            <div class="process-arrow">→</div>
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <h3>Launch & Support</h3>
+                <p>Live. Tested. Optimized. I'm here to answer questions and help you manage it.</p>
+            </div>
+        </div>
+        <p class="process-note">The whole process takes 2-4 weeks. No surprises. No hidden costs.</p>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+        <h2>Ready to grow your business online?</h2>
+        <p>Let's build something that works.</p>
+        <button class="cta-large" onclick="scrollToContact()">Get Started Now</button>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Let's Talk</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">What do you need?</option>
+                            <option value="website">Website</option>
+                            <option value="design">Design</option>
+                            <option value="both">Both</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+            <div class="contact-info">
+                <h3>Direct Contact</h3>
+                <p><strong>Email:</strong> <a href="mailto:ritikawebworks@gmail.com">ritika.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/ritika</a></p>
+                <p><strong>Portfolio:</strong> <a href="#" target="_blank">ritikawebworks.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Ritika W. | Built with code and strategy.</p>
+        <div class="footer-links">
+            <a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <!-- CHATBOT -->
+    <div class="chatbot-container">
+        <button class="chatbot-toggle" id="chatbotToggle" onclick="toggleChatbot()">💬</button>
+        <div class="chatbot-window" id="chatbotWindow">
+            <div class="chatbot-header">
+                <h4>Let's Chat</h4>
+                <button class="chatbot-close" onclick="closeChatbot()">✕</button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="bot-message">Hi! I'm here to help. Are you looking for a <strong>website</strong> or <strong>design</strong>?</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatInput" placeholder="Type or click below..." onkeypress="handleChatInput(event)">
+                <div class="chat-quick-replies" id="chatQuickReplies">
+                    <button onclick="chatReply('website')">Website</button>
+                    <button onclick="chatReply('design')">Design</button>
+                    <button onclick="chatReply('both')">Both</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOADING ANIMATION -->
+    <div class="loading-animation" id="loadingAnimation"></div>
+
+    <script src="portfolio_ritika.js"></script>
+</body>
+</html>
